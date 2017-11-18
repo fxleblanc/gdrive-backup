@@ -20,3 +20,7 @@ then
     echo "You must install the google drive command line client"
     exit 1
 fi
+
+# Upload to google drive
+echo "Uploading..."
+gdrive upload $encrypted_filename
